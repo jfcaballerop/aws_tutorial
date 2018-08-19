@@ -14,7 +14,8 @@ check_param_and_publish()
         echo -e "\n Finish"
 
     else
-        echo -e "\n error: Function name is required \n"
+        echo -e "\nerror: Function name is required \n"
+        echo -e "usage: publish AWS_FUNCTION \n"
         return 0
     fi
 }
